@@ -17,7 +17,7 @@
                 {
                     rezult[number] = 0;
                 }
-                rezult[number]++;
+                rezult[number]++;   
             }
 
             foreach (var rez in rezult)
