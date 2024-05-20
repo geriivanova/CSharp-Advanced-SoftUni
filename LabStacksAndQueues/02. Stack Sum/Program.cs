@@ -4,12 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Stack<char> stack = new Stack<char>(Console.ReadLine().ToCharArray());
-
-            while (stack.Count > 0)
-            {
-                Console.Write(stack.Pop());
-            }
+            
         }
     }
 }
