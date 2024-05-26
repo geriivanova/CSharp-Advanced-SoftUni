@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Reverse a String", "01. Reverse a String\01. Reverse a String.csproj", "{EEBE8540-8BDB-4E63-A873-EFE95CE0A9BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Reverse a String", "01. Reverse a String\01. Reverse a String.csproj", "{EEBE8540-8BDB-4E63-A873-EFE95CE0A9BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Stack Sum", "02. Stack Sum\02. Stack Sum.csproj", "{8E531093-A4F0-4D29-9282-636556EFC34A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Stack Sum", "02. Stack Sum\02. Stack Sum.csproj", "{8E531093-A4F0-4D29-9282-636556EFC34A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Reverse a String 2.0", "01. Reverse a String 2.0\01. Reverse a String 2.0.csproj", "{4A296E27-35E1-4C26-9F75-E0EFCC5CE085}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Reverse a String 2.0", "01. Reverse a String 2.0\01. Reverse a String 2.0.csproj", "{4A296E27-35E1-4C26-9F75-E0EFCC5CE085}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Simple Calculator", "03. Simple Calculator\03. Simple Calculator.csproj", "{DF4CA6F8-C44B-4B05-BFED-3F3F56C9F83A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Simple Calculator", "03. Simple Calculator\03. Simple Calculator.csproj", "{DF4CA6F8-C44B-4B05-BFED-3F3F56C9F83A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Matching Brackets", "04. Matching Brackets\04. Matching Brackets.csproj", "{B6EFC1F6-926E-42F3-83B8-21293C55E436}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Matching Brackets", "04. Matching Brackets\04. Matching Brackets.csproj", "{B6EFC1F6-926E-42F3-83B8-21293C55E436}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Print Even Numbers", "05. Print Even Numbers\05. Print Even Numbers.csproj", "{B49B6602-E093-4345-A4FF-58C8B12A4A2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Print Even Numbers", "05. Print Even Numbers\05. Print Even Numbers.csproj", "{B49B6602-E093-4345-A4FF-58C8B12A4A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Supermarket", "06. Supermarket\06. Supermarket.csproj", "{7CA97D7E-356D-46F0-A845-F333410418B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Supermarket", "06. Supermarket\06. Supermarket.csproj", "{7CA97D7E-356D-46F0-A845-F333410418B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Hot Potato", "07. Hot Potato\07. Hot Potato.csproj", "{BB9C224B-FE80-4CE0-8802-E93D091E1228}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Hot Potato", "07. Hot Potato\07. Hot Potato.csproj", "{BB9C224B-FE80-4CE0-8802-E93D091E1228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Traffic Jam", "08.Traffic Jam\08.Traffic Jam.csproj", "{31A94AE7-8B68-4DBD-B3A2-E10FF1D4C264}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{BB9C224B-FE80-4CE0-8802-E93D091E1228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB9C224B-FE80-4CE0-8802-E93D091E1228}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB9C224B-FE80-4CE0-8802-E93D091E1228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A94AE7-8B68-4DBD-B3A2-E10FF1D4C264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A94AE7-8B68-4DBD-B3A2-E10FF1D4C264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A94AE7-8B68-4DBD-B3A2-E10FF1D4C264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A94AE7-8B68-4DBD-B3A2-E10FF1D4C264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
