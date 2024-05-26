@@ -10,21 +10,27 @@
 
             int n = int.Parse(Console.ReadLine());
 
-            Queue<string> names = new Queue<string>();
+            Queue<string> names = new Queue<string>(childrenNames);
 
-            for(int i = 0; i < childrenNames.Length; i++)
-            {
-                names.Enqueue(childrenNames[i]);
-            }
             int tosses = 0;
             while(names.Count != 1 )
             {
-                for (int i = 0; i < n; i++)
+                for (int i = 0; i < childrenNames.Length - 1; i++)
                 {
                     string childWithPotato = names.Dequeue();
-
+                    tosses++;
+                    if(tosses == n)
+                    {
+                        Console.WriteLine($"Removed {childWithPotato}");
+                        tosses = 0;
+                    }
+                    else
+                    {
+                        names.Enqueue(childWithPotato);
+                    }
                 }
             }
+            Console.WriteLine($"Last is {names.Dequeue()}");
             
         }
     }
